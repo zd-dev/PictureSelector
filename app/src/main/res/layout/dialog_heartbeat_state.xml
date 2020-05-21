@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content">
+
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:background="#ffffff"
+      android:orientation="vertical">
+
+      <TextView
+         android:id="@+id/tv_camera"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相机"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_single"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册无相机（单选）"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_multi"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册无相机（多选）"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_camera_single"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册有相机（单选）"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_camera_multi"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册有相机（多选）"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_size"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册（尺寸和大小限制）"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_has_video_gif"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册（支持video和gif）"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+
+      <View
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#eeeeee" />
+
+      <TextView
+         android:id="@+id/tv_album_only_video"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="14dp"
+         android:paddingTop="15dp"
+         android:paddingBottom="15dp"
+         android:text="相册(仅有video)"
+         android:textColor="#333333"
+         android:textSize="15sp" />
+   </LinearLayout>
+
+</RelativeLayout>

@@ -8,4 +8,14 @@
       <item name="colorAccent">@color/colorAccent</item>
    </style>
 
+   <!-- 自定义dialog样式评价-->
+   <style name="PictureDialog" parent="@android:style/Theme.Dialog">
+      <item name="android:windowEnterAnimation">@anim/mylogout_dialog_enter</item>
+      <item name="android:windowExitAnimation">@anim/mylogout_dialog_exit</item>
+      <item name="android:windowFrame">@null</item>
+      <item name="android:windowNoTitle">true</item>
+      <item name="android:windowBackground">@drawable/my_dialog</item>
+      <item name="android:windowIsFloating">true</item>
+   </style>
+
 </resources>

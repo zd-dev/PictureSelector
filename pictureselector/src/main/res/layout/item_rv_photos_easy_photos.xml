@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content">
+
+   <com.selector.picture.ui.widget.PressedImageView
+      android:id="@+id/iv_photo"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="4dp"
+      android:background="@drawable/shap_icon_bg"
+      android:scaleType="centerCrop"
+      app:aspectRatio="1"
+      app:cornerRadius="6dp" />
+
+   <TextView
+      android:id="@+id/tv_selector"
+      android:layout_width="19dp"
+      android:layout_height="19dp"
+      android:layout_alignParentRight="true"
+      android:layout_margin="9dp"
+      android:background="@drawable/shap_icon_un_check"
+      android:gravity="center"
+      android:textColor="@color/menu_text_easy_photos"
+      android:textSize="12sp" />
+
+   <View
+      android:id="@+id/v_selector"
+      android:layout_width="45dp"
+      android:layout_height="45dp"
+      android:layout_alignParentRight="true"
+      android:background="@color/transparent_easy_photos" />
+
+   <TextView
+      android:id="@+id/tv_type"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignRight="@+id/iv_photo"
+      android:layout_alignBottom="@+id/iv_photo"
+      android:layout_margin="3dp"
+      android:text="@string/gif_easy_photos"
+      android:textColor="#ffffff"
+      android:textSize="12sp"
+      android:textStyle="bold"
+      android:visibility="gone" />
+</RelativeLayout>

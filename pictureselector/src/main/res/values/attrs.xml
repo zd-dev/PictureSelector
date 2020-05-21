@@ -1,0 +1,35 @@
+<resources>
+
+    <attr format="dimension" name="cornerRadius" />
+    <attr format="dimension" name="topLeftRadius" />
+    <attr format="dimension" name="topRightRadius" />
+    <attr format="dimension" name="bottomLeftRadius" />
+    <attr format="dimension" name="bottomRightRadius" />
+    <attr format="float" name="aspectRatio" />
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PuzzleView">
+        <attr name="line_size" format="integer" />
+        <attr name="line_color" format="color" />
+        <attr name="selected_line_color" format="color" />
+        <attr name="handle_bar_color" format="color" />
+        <attr name="need_draw_line" format="boolean" />
+        <attr name="need_draw_outer_line" format="boolean" />
+        <attr name="piece_padding" format="dimension" />
+        <attr name="animation_duration" format="integer" />
+        <attr name="radian" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="PressedImageView">
+        <attr name="cornerRadius" />
+        <attr name="topLeftRadius" />
+        <attr name="topRightRadius" />
+        <attr name="bottomLeftRadius" />
+        <attr name="bottomRightRadius" />
+        <attr name="aspectRatio" />
+    </declare-styleable>
+</resources>
